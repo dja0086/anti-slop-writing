@@ -31,7 +31,7 @@ node ~/.claude/skills/anti-slop-writing/scan.mjs draft.md --mode marketing
 | `--strict`         | Exit 1 on WARN as well as BAN                                                   |
 | `-`                | Read from stdin                                                                 |
 
-It scans `.md`, `.mdx`, `.txt` and `.html` files, and the string values of `.json` files. Code fences, inline code and licence files are skipped. The exit code is 1 when a BAN remains.
+It scans `.md`, `.mdx`, `.txt` and `.html` files, and the string values of `.json` files. Code fences, inline code, shell commands and licence files are skipped, and curly quotes are normalized before matching. The last line is always `<mode>: N BAN, M WARN`. Exit codes: 0 clean, 1 a BAN remains, 2 usage error or missing file.
 
 ## Test
 
