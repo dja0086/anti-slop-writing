@@ -48,3 +48,7 @@ npm test
 | `references/rules.md` | Every rule with its source                                                                          |
 | `references/voice.md` | The plain engineering voice to match                                                                |
 | `test/scan.test.mjs`  | Scanner tests                                                                                       |
+
+## License
+
+MIT. See [LICENSE](LICENSE). The banned-phrase lists in `references/rules.md` credit their sources, which keep their own licences.

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "A Claude Code skill and dependency-free scanner that catch AI-slop in product marketing, fiction and docs.",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "anti-slop-scan": "scan.mjs"
