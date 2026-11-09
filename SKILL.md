@@ -56,7 +56,7 @@ node <skill-dir>/scan.mjs <file-or-dir> --mode marketing --rhythm
    - **Rhythm:** read the `--rhythm` output. Within one paragraph, vary any three sentences in a row whose longest and shortest differ by two words or fewer. A paragraph break resets the count; a command or link line is not a sentence; a line of dialogue and its tag count as one. If varying a run would push a sentence past 20 words or change its meaning, leave it and report it.
    - **Specificity:** every paragraph that describes the product contains a noun or number from this product's own behavior: a UI element, a command, or which records it connects and how. Shared platform nouns count when the sentence says what this product does with them. The product's name alone does not count. A paragraph that sets up the reader's problem uses the reader's own nouns instead. In fiction, apply this per scene.
    - **Logo-swap** (marketing): if a competitor's name fits a headline that makes a claim about the product, rewrite it with the least-shared fact you hold; if no such fact exists, report the headline as generic. A headline that states the reader's problem is exempt, but the product's name or mechanism must appear within the first three sentences after the headline. Do not cut a sentence only to move the name earlier.
-   - **Edges:** read the first and last sentence alone. In marketing, the opening states the incident or what the thing does; it is never a question. In fiction the opening puts the reader in a place. The ending is an action the reader can take now, or a specific question the author wants practitioners to answer; limits belong earlier, stated as facts, never as a closing disclaimer. Do not add an ask the author has not agreed to. Fiction ends on an image or an action.
+   - **Edges:** read the first and last sentence alone. In marketing, the opening states the incident or what the thing does; it is never a question. In fiction the opening puts the reader in a place. The ending is an action the reader can take now, or a specific question the author wants practitioners to answer; limits belong earlier, stated as facts, never as a closing disclaimer. Do not add an ask the author has not agreed to; if there is no action and no agreed ask, end on the last plain fact about what the thing does, and report that as a choice, not a miss. Fiction ends on an image or an action.
      Done when each check passes or its miss is written down for the report.
 
 6. **Report.** Give, in this order:
@@ -65,7 +65,7 @@ node <skill-dir>/scan.mjs <file-or-dir> --mode marketing --rhythm
    - the step-5 results, one line per check, with each miss, including which template signals were removed and which evidence items are still missing;
    - for marketing and docs, the claim trace and any questions for the author; for fiction, the step-2 decisions, every invented detail, and each real-world fact marked checked (with its source) or unchecked;
    - for a rewrite, a change list: original text, new text, and the rule or check that justifies it; and the sentences deliberately left unchanged;
-   - the status: **final**, or **draft with N open placeholders**. Open placeholders block final; unchecked fiction facts and reported step-5 misses do not.
+   - the status: **final**, **final, thin** (no placeholders, but evidence items from the structural review are still missing; name them), or **draft with N open placeholders**. Open placeholders block final; unchecked fiction facts and reported step-5 misses do not.
 
 ## Channels
 
