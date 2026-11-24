@@ -203,6 +203,15 @@ const RULES = [
     "Vague quantity. Give a number.",
   ],
   [
+    "bio-cliche",
+    "WARN",
+    MD,
+    P(
+      "\\b(?:(?:family|wife|husband|kids|children|son|daughter|partner)s?\\b[^.]{0,30}\\bcomes? first|passionate about|lifelong learner|relentless learner|self-starter|problem[- ]solver|(?:lead|leads|leading) from the trenches|in the trenches|wears? many hats|outside the box|results[- ]driven|go-getter|(?:the )?learning compounds|when i'?m not (?:working|building|coding))\\b",
+    ),
+    "Stock bio phrase. Replace it with the person's own specific words or a concrete fact.",
+  ],
+  [
     "datasheet-verb",
     "WARN",
     MD,

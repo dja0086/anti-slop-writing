@@ -319,3 +319,15 @@ test("--channel social bans Markdown; --rhythm finds flat runs", () => {
     ).rules.includes("WARN:rhythm-run"),
   );
 });
+
+test("stock bio phrases are a WARN; the person's own specific line passes", () => {
+  const slop = run(
+    "My family comes first. I lead from the trenches, and the learning compounds.",
+  );
+  assert.ok(slop.rules.includes("WARN:bio-cliche"));
+  assert.equal(slop.rules.filter((r) => r === "WARN:bio-cliche").length, 3);
+  const own = run(
+    "The only things that compare to that obsession are my partner, my kid and tacos.",
+  );
+  assert.ok(!own.rules.includes("WARN:bio-cliche"));
+});

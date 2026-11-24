@@ -23,3 +23,14 @@ Marketing copy in this voice keeps the same moves: the mechanism first, a real n
 
 - Slop: `Unlock seamless NetSuite insights with our all-in-one data experience!`
 - Voice: `Query customers, transactions and employees in one grid, then export the rows on screen.`
+
+## Applying it to personal and about copy
+
+Bios, about sections and personal sites use a looser register than READMEs. The owner's own personal writing (their site's original about copy and their answers in its chat knowledge file) shows these moves:
+
+- **Opens plainly in the first person** (`Hi, I'm …`) and describes the work in their own sentence, not a positioning slogan.
+- **Undercuts a serious line with a specific, funny one.** A list of what matters most ends on something small and particular instead of a solemn summary.
+- **Names the people and the activity**, not a value: who they watch the match with, what they do on a walk. A reader learns a fact, not a virtue.
+- **Quotes their own principles verbatim** when it uses them; it does not paraphrase them into polished copy.
+
+When rewriting the owner's personal copy, keep their original sentence wherever it carries a specific detail or a joke, and only tighten it. Do not replace it with a smoother stock line: `My family comes first`, `I lead from the trenches` and `the learning compounds` are the averages this skill exists to remove (`bio-cliche`).
